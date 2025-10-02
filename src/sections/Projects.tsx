@@ -3,23 +3,31 @@ import ProjectCard from "../components/ProjectCard";
 export default function Projects() {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Asset Pro: Asset Management System",
       description:
-        "A full-featured online shopping platform with cart, checkout, and payment integration.",
+        "A comprehensive asset management system designed to streamline asset monitoring, tracking and management for organizations.",
       image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=500",
-      tags: ["React", "TypeScript", "Tailwind"],
-      liveUrl: "https://example.com",
+      tags: [
+        "React",
+        "JavaScript",
+        "Tailwind",
+        "Chakra UI",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "REST API",
+      ],
       githubUrl: "https://github.com/yourusername/project",
     },
     {
-      title: "Task Management App",
+      title: "Chatter: Real-time Chat Application",
       description:
-        "A productivity tool for managing tasks and projects with drag-and-drop functionality.",
+        "A real-time chat application built with modern web technologies.",
       image:
         "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=500",
       tags: ["React", "Framer Motion", "Firebase"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/yourusername/project",
+      liveUrl: "https://chatter-j3jb.onrender.com/",
+      githubUrl: "https://github.com/jntolentino/chatter",
     },
     {
       title: "Weather Dashboard",

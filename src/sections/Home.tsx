@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <section id="home" className="min-h-screen flex items-center">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-5 py-5 max-w-5xl">
         <div className="hero">
           <div className="hero-content text-center">
             <div className="max-w-3xl">
