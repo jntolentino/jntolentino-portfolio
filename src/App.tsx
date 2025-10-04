@@ -4,6 +4,8 @@ import Home from "./sections/Home";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
 import Contact from "./sections/Contacts";
+import LoadingScreen from "./components/LoadingScreen";
+import Resume from "./sections/Resume";
 
 function App() {
   return (
@@ -11,10 +13,12 @@ function App() {
       <div className="min-h-screen flex-grow">
         <Header />
         <main className="flex-grow">
+          <LoadingScreen />
           <Home />
           <About />
           <Projects />
           <Contact />
+          <Resume />
         </main>
       </div>
       <Footer />

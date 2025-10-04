@@ -67,7 +67,7 @@ export default function Header() {
 
       <div className="navbar-end">
         <label className="swap swap-rotate btn btn-ghost btn-circle">
-          <input type="checkbox" className="theme-controller" value="light" />
+          <input type="checkbox" className="theme-controller" value="winter" />
           <svg
             className="swap-off fill-current w-6 h-6"
             xmlns="http://www.w3.org/2000/svg"

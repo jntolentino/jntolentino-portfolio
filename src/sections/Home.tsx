@@ -40,15 +40,17 @@ export default function Home() {
                   <Briefcase size={20} />
                   View Projects
                 </button>
-                <a
-                  href="/Tolentino_Resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <button
+                  onClick={() =>
+                    document
+                      .getElementById("resume")
+                      ?.scrollIntoView({ behavior: "smooth" })
+                  }
                   className="btn btn-outline btn-lg gap-2"
                 >
                   <FileText size={20} />
                   View Resume
-                </a>
+                </button>
               </div>
             </div>
           </div>
